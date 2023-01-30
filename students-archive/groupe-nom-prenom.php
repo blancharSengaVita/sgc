@@ -1,0 +1,171 @@
+<?php
+
+/*
+ *  Modifiez ce fichier afin d'y injecter les résultats de la requête
+ *  que vous avez rédigée dans le fichier <groupe>-<nom>-<prenom>.sql.
+ *
+ *  --
+ *  INFORMATIONS IMPORTANTES :
+ *      - Cette vue n'accède qu'à une seule variable PHP qui a été définie pour vous :
+ *        $results - Un tableau contenant les résultats de votre requête SQL
+ *      - Tout ce qu'il faut modifier se trouve dans div.list__items
+ *      - Faites bien attention à tous les détails prévus dans la structure HTML ci-dessous
+ *      - Tenez à l'esprit que certaines colonnes "nullables" de la base de données pourraient
+ *        ne nécessiter un contrôle particulier à l'affichage, au cas où elles seraient NULL.
+ *      - Deux fonctions spéciales PHP sont utilisées :
+ *          1. date('d/m/Y', strtotime($maDate))
+ *             Permet de formater une date au format SQL stockée dans une variable $maDate de
+ *             façon à ce qu'elle s'affiche par exemple ainsi : 21/01/2022.
+ *          2. date('c', strtotime($maDate))
+ *             Permet de formater une date au format SQL stockée dans une variable $maDate de
+ *             façon à ce qu'elle s'affiche au format ISO 8601, par exemple ainsi : 2022-01-21T10:30:00
+ *          3. number_format($number, $decimals_count, $decimals_separator, $thousands_separator)
+ *             Retourne un nombre donné au format souhaité
+ *              - $number - représente le nombre "brut" à formater
+ *              - $decimals_count - représente le nombre de décimales après la virgule
+ *              - $decimals_separator - représente le caractère à utiliser en tant que "virgule"
+ *              - $thousands_separator - représente le caractère à utiliser entre les milliers
+ *  --
+ *
+ *  Renommez ce fichier comme il se doit (<groupe>-<nom>-<prenom>.php).
+ *  N'ayez crainte, le système MVC a été adapté et continuera à 
+ *  fonctionner malgré le renommage.
+ */
+
+?><!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 10 - HEPLflix</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="head__container wrapper">
+            <h1 class="head__title">
+                <span class="sro">HEPLflix -</span>
+                <strong class="head__big">Le top 3</strong>
+                <em class="head__sub">Des séries disponibles en anglais</em>
+            </h1>
+        </div>
+        <div class="head__top">
+            <div class="head__bar wrapper">
+                <div class="head__branding">
+                    <a href="#" class="head__home">Retour à l'accueil</a>
+                    <img src="img/logo.svg" alt="Logo de HEPLflix" class="head__logo" />
+                </div>
+                <nav class="head__nav nav">
+                    <h2 class="sro">Navigation principale</h2>
+                    <a href="#" class="nav__item"><span class="nav__label">Accueil</span></a>
+                    <a href="#" class="nav__item"><span class="nav__label">Films</span></a>
+                    <a href="#" class="nav__item"><span class="nav__label">Séries</span></a>
+                    <a href="#" class="nav__item nav__item--current"><span class="nav__label">Top 3</span></a>
+                    <a href="#" class="nav__item"><span class="nav__label">Se connecter</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="list">
+        <section class="list__container wrapper">
+            <h2 class="sro">Actuellement dans le Top 3</h2>
+            <div class="list__items">
+
+                <article class="track">
+                    <header class="track__head">
+                        <h3 class="track__title">
+                            <a href="https://www.netflix.com/title/81133094" class="track__link" target="_blank">Katla</a>
+                        </h3>
+                        <dl class="track__meta">
+                            <dt class="track__term">Nombre de saisons</dt>
+                            <dd class="track__data">1</dd>
+                            <dt class="track__term">Sortie</dt>
+                            <dd class="track__data"><time datetime="2021-06-17T00:00:00+00:00">17/06/2021</time></dd>
+                            <dt class="track__term">Fin</dt>
+                            <dd class="track__data"><time datetime="2021-06-17T00:00:00+00:00">17/06/2021</time></dd>
+                        </dl>
+                        <div class="track__description">
+                            <p>A year after a subglacial volcano erupts, mysterious elements from prehistoric times emerge from the melting ice, bringing unforeseen consequences.</p>
+                        </div>
+                    </header>
+                    <div class="track__player">
+                        <button class="track__play"><span class="sro">Regarder "Katla"</span></button>
+                        <figure class="track__cover">
+                            <img src="img/thumbs/81133094.jpg" alt="Image de couverture de Katla" class="track__img">
+                        </figure>
+                    </div>
+                    <div class="track__appreciation"><div class="track__rating">
+                        <strong class="track__rate">7,90</strong>
+                        <span class="track__mode">Moyenne pour</span>
+                        <em class="track__count">8 épisodes</em>
+                    </div></div>
+                </article>
+
+                <article class="track">
+                    <header class="track__head">
+                        <h3 class="track__title">
+                            <a href="https://www.netflix.com/title/80186863" class="track__link" target="_blank">Umbrella Academy</a>
+                        </h3>
+                        <p class="track__tagline">Famille. Super. Névrosée.</p>
+                        <dl class="track__meta">
+                            <dt class="track__term">Nombre de saisons</dt>
+                            <dd class="track__data">4</dd>
+                            <dt class="track__term">Sortie</dt>
+                            <dd class="track__data"><time datetime="2019-02-15T00:00:00+00:00">15/02/2019</time></dd>
+                            <dt class="track__term">Fin</dt>
+                            <dd class="track__data"><time datetime="2020-08-18T00:00:00+00:00">18/08/2020</time></dd>
+                        </dl>
+                        <div class="track__description">
+                            <p>A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.</p>
+                        </div>
+                    </header>
+                    <div class="track__player">
+                        <button class="track__play"><span class="sro">Regarder "Umbrella Academy"</span></button>
+                        <figure class="track__cover">
+                            <img src="img/thumbs/80186863.jpg" alt="Image de couverture de Umbrella Academy" class="track__img">
+                        </figure>
+                    </div>
+                    <div class="track__appreciation"><div class="track__rating">
+                        <strong class="track__rate">7,69</strong>
+                        <span class="track__mode">Moyenne pour</span>
+                        <em class="track__count">21 épisodes</em>
+                    </div></div>
+                </article>
+
+                <article class="track">
+                    <header class="track__head">
+                        <h3 class="track__title">
+                            <a href="http://www.cbs.com/shows/big_bang_theory/" class="track__link" target="_blank">The Big Bang Theory</a>
+                        </h3>
+                        <dl class="track__meta">
+                            <dt class="track__term">Nombre de saisons</dt>
+                            <dd class="track__data">13</dd>
+                            <dt class="track__term">Sortie</dt>
+                            <dd class="track__data"><time datetime="2007-09-24T00:00:00+00:00">24/09/2007</time></dd>
+                            <dt class="track__term">Fin</dt>
+                            <dd class="track__data"><time datetime="2019-05-16T00:00:00+00:00">16/05/2019</time></dd>
+                        </dl>
+                        <div class="track__description">
+                            <p>The sitcom is centered on five characters living in Pasadena, California: roommates Leonard Hofstadter and Sheldon Cooper; Penny, a waitress and aspiring actress who lives across the hall; and Leonard and Sheldon's equally geeky and socially awkward friends and co-workers, mechanical engineer Howard Wolowitz and astrophysicist Raj Koothrappali. The geekiness and intellect of the four guys is contrasted for comic effect with Penny's social skills and common sense.</p>
+                        </div>
+                    </header>
+                    <div class="track__player">
+                        <button class="track__play"><span class="sro">Regarder "The Big Bang Theory"</span></button>
+                        <figure class="track__cover">
+                            <img src="img/thumbs/70143830.jpg" alt="Image de couverture de The Big Bang Theory" class="track__img">
+                        </figure>
+                    </div>
+                    <div class="track__appreciation"><div class="track__rating">
+                        <strong class="track__rate">7,21</strong>
+                        <span class="track__mode">Moyenne pour</span>
+                        <em class="track__count">282 épisodes</em>
+                    </div></div>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="disclaimer wrapper">
+        <p class="disclaimer__content">HEPLflix - Examen Janvier 2022 - Systèmes de Gestion de Contenu (SGC)</p>
+    </footer>
+</body>
+</html>

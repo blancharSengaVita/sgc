@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aec1cf51-3f12-4985-bbd2-4a83bcb58d78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/BaseSite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Render/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Routes/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Routes/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Routes/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Models/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Models/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Site.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Views/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/Views/news-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Sites/HEPLPetCare/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/templatemo-nomad-force.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/animals/bunny01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/animals/cat01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/animals/dog01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/animals/dog02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/animals/hamster01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/elena-rabkina-eVVzwsNhNf4-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/employees/person1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/employees/person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/employees/person3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/employees/person4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/employees/person5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/caroline-lm-uqveD8dYPUM-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/jean-philippe-delberghe-MmanXAs1sKw-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/maria-stewart-p4tj0g-_aMM-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/severin-candrian-nn3uIZqmUtE-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/thought-catalog-gv-T-OjLe4c-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/tyler-nix-Y1drF0Y3Oe0-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/visuals-Y4qzW3AsvqI-unsplash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/magnific-popup-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scrollspy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/792bd98f3e617786c850493560e11c45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/814dc43e870597176cad645798825c03.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hepl-pet-care-2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/Models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../revision.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/hkgrotesk-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/hkgrotesk-bold-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/hkgrotesk-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/hkgrotesk-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/20557937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/21304015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/60024940.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70019508.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70044379.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70054920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70058017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70101276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70105370.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70127226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70140450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70143830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70153373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70153404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70158329.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70208107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70213223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/70298735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80000644.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80013274.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80017529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80038359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80061132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80061157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80097140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80104000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80113627.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80133335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80133493.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80171099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80176893.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80177458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80186863.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80187362.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80192098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80207033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80209042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80211726.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80218200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80221908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80222802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80225312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80236236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80236314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80236319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/80998491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81038963.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81098012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81133094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81161789.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81228331.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81244448.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81279324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/thumbs/81435684.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../synthese.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../285-blanchar-senga-vita.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../285-blanchar-senga-vitaa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hepl-pet-care" beforeDir="false" afterPath="$PROJECT_DIR$/../Hepl-pet-care" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercices.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../exercices.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/Views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hepl-pet-care-2/core/Sites/HEPLPetCare/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgbd_ecole.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sgc_ecole.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/groupe-nom-prenom.php" beforeDir="false" afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/groupe-nom-prenom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/exemple.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/exemple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/fonts/SourceSansPro-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/star-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/img/star-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/3009_w600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/35057_w600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/45730_w600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/bruschetta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/couscous.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/creme.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/croissants.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/curry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/gateau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/linguine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sgc_janvier_2021_examen/public/storage/souffle.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ILi0XusRDVGNqqvymt3Gf1xYTp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aec1cf51-3f12-4985-bbd2-4a83bcb58d78" name="Changes" comment="" />
+      <created>1669967046152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669967046152</updated>
+      <workItem from="1669967050175" duration="13123000" />
+      <workItem from="1670346073355" duration="3746000" />
+      <workItem from="1672968263548" duration="1134000" />
+      <workItem from="1672972657075" duration="9533000" />
+      <workItem from="1673110145718" duration="1011000" />
+      <workItem from="1673376272329" duration="1549000" />
+      <workItem from="1673377840339" duration="2429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
